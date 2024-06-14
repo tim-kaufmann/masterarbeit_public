@@ -1,26 +1,28 @@
+import os
 import string
 from collections import Counter
 
-
 def word_count(file_path):
-    try:
-        # 读取文件内容
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
+    if not os.path.exists(file_path):
+        return {}
 
-        # 移除标点符号并转换为小写
-        translator = str.maketrans("", "", string.punctuation)
-        content = content.translate(translator).lower()
+    with open(file_path, 'r', encoding='utf-8') as file:
+        text = file.read()
 
-        # 使用 Counter 统计单词出现次数
-        words = content.split()
-        word_counter = Counter(words)
+    # Remove punctuation and convert to lowercase
+    text = text.translate(str.maketrans('', '', string.punctuation)).lower()
+    
+    # Split the text into words
+    words = text.split()
 
-        # 按照出现次数降序排列
-        sorted_word_count = sorted(word_counter.items(), key=lambda x: x[1], reverse=True)
+    # Count the words
+    word_counts = Counter(words)
+    
+    # Sort the dictionary by count (descending) and then alphabetically
+    sorted_word_counts = dict(sorted(word_counts.items(), key=lambda item: (-item[1], item[0])))
 
-        for word, count in sorted_word_count:
-            print(f"'{word}': {count}")
+    # Print the results as required by the test
+    for word, count in sorted_word_counts.items():
+        print(f"'{word}': {count}")
 
-    except FileNotFoundError:
-        print(f"Error: File '{file_path}' not found.")
+    return sorted_word_counts
