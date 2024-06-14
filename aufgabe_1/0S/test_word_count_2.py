@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from pytest import CaptureFixture
-from .word_count_2 import word_count
+from word_count_2 import word_count
 
 
 class Testword_count:
