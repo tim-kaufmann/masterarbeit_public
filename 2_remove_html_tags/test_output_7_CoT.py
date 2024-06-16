@@ -1,6 +1,6 @@
 import string
 from collections import Counter
-from output_4_0S import word_count
+from output_7_CoT import word_count
 
 class Testword_count:
     def test_word_count_case_sensitive_file(self, capfd, tmp_path):
