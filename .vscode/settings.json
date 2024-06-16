@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "aufgabe_1"
+        "1_word_count"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
