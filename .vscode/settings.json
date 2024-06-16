@@ -1,6 +1,5 @@
 {
     "python.testing.pytestArgs": [
-        "1_word_count",
         "2_remove_html_tags"
     ],
     "python.testing.unittestEnabled": false,

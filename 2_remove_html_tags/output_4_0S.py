@@ -1,25 +1,21 @@
-import string
-from collections import Counter
+import re
 
-def word_count(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        text = file.read().lower()
-        
-    # Remove punctuation
-    translator = str.maketrans('', '', string.punctuation)
-    text = text.translate(translator)
+def remove_html_tags(s):
+    if not isinstance(s, str):
+        raise ValueError("Input must be a string")
+    if not s:
+        return ""
     
-    # Split text into words
-    words = text.split()
+    # Define regex patterns
+    tag_pattern = re.compile(r'<[^>]+>')
+    comment_pattern = re.compile(r'<!--.*?-->', re.DOTALL)
+    doctype_pattern = re.compile(r'<!DOCTYPE[^>]*>', re.IGNORECASE)
     
-    # Count words
-    word_counts = Counter(words)
+    # Remove HTML comments
+    s = re.sub(comment_pattern, '', s)
+    # Remove document type declarations
+    s = re.sub(doctype_pattern, '', s)
+    # Remove HTML tags
+    s = re.sub(tag_pattern, '', s)
     
-    # Sort words first by count descending, then alphabetically
-    sorted_word_counts = dict(sorted(word_counts.items(), key=lambda item: (-item[1], item[0])))
-    
-    # Print the result
-    for word, count in sorted_word_counts.items():
-        print(f"'{word}': {count}")
-
-# The code does not contain test cases as per the instruction.
+    return s.strip()
