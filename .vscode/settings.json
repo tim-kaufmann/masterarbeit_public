@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "2_remove_html_tags"
+        "3_schedule_manager"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
