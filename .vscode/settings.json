@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "5_utf8_to_ascii"
+        "6_get_top_k_words_from_html"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./5_utf8_to_ascii/test_"
+        "./6_get_top_k_words_from_html/test_"
     ]
 }
