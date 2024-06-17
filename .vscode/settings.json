@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "3_schedule_manager"
+        "5_utf8_to_ascii"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./3_schedule_manager/test_"
+        "./5_utf8_to_ascii/test_"
     ]
 }
