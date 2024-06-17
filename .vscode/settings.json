@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "6_get_top_k_words_from_html"
+        "7_extract_temperatures_from_text"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./6_get_top_k_words_from_html/test_"
+        "./7_extract_temperatures_from_text/test_"
     ]
 }
