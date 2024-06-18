@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "9_txt_to_excel"
+        "11_mean_squarred_error"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./9_txt_to_excel/test_"
+        "./11_mean_squarred_error/test_"
     ]
 }
