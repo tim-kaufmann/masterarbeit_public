@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "8_backup_folder"
+        "9_txt_to_excel"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./8_backup_folder/test_"
+        "./9_txt_to_excel/test_"
     ]
 }
