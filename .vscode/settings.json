@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "11_mean_squarred_error"
+        "12_list_files"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./11_mean_squarred_error/test_"
+        "./12_list_files/test_"
     ]
 }
