@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "7_extract_temperatures_from_text"
+        "8_backup_folder"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./7_extract_temperatures_from_text/test_"
+        "./8_backup_folder/test_"
     ]
 }
