@@ -1,18 +1,20 @@
 import os
+from PIL import Image
 
-class ListFiles:
-    def __init__(self, path):
-        self.path = path
-        self.list_files()
+def resize_and_rename_images(input_folder, output_folder, resolution):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-    def list_files(self):
-        if not os.path.exists(self.path) or not os.path.isdir(self.path):
-            print("Invalid directory path.")
-            return
+    images = sorted(os.listdir(input_folder))
+    resized_images_info = "Modified images resolutions:\n"
 
-        for root, dirs, files in os.walk(self.path):
-            for file in files:
-                print(file)
-
-def list_files(path):
-    ListFiles(path)
+    for index, image_name in enumerate(images):
+        image_path = os.path.join(input_folder, image_name)
+        with Image.open(image_path) as img:
+            rgb_img = img.convert('RGB')
+            resized_img = rgb_img.resize(resolution)
+            new_image_name = f"{index+1:03}.jpg"
+            resized_img.save(os.path.join(output_folder, new_image_name))
+            resized_images_info += f"{new_image_name}: {resolution[0]} x {resolution[1]}\n"
+    
+    print(resized_images_info)
