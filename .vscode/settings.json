@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "14_diag_zero"
+        "15_count_files"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./14_diag_zero/test_"
+        "./15_count_files/test_"
     ]
 }
