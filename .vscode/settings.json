@@ -1,10 +1,10 @@
 {
     "python.testing.pytestArgs": [
-        "12_list_files"
+        "13_resize_and_rename_images"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./12_list_files/test_"
+        "./13_resize_and_rename_images/test_"
     ]
 }
