@@ -1,10 +1,12 @@
 {
     "python.testing.pytestArgs": [
-        "15_count_files"
+        "16_k_means_clustering",
+        "-v"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./15_count_files/test_"
+        "./16_k_means_clustering/test_"
     ]
+    
 }
