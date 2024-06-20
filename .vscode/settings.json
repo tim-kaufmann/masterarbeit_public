@@ -1,12 +1,12 @@
 {
     "python.testing.pytestArgs": [
-        "16_k_means_clustering",
+        "17_calculate_date_difference",
         "-v"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "./16_k_means_clustering/test_"
+        "./17_calculate_date_difference/test_"
     ]
     
 }
