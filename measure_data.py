@@ -85,21 +85,18 @@ def main(directory):
                         'Datum/Zeit': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                         'Prompting-Technik': prompt_technique,
                         'Programmieraufgabe': task_name,
-                        'Antworttext': '',  # Not applicable here
-                        'Codeauszug': '',  # Not applicable here
+                        #'Antworttext': '',  # Not applicable here
+                        #'Codeauszug': '',  # Not applicable here
                         'Länge des Codes': code_length,
                         'Kommentare im Code': comment_count,
                         'Anzahl der importierten Bibliotheken': import_count,
-                        'Bestanden Testfälle': passed_tests,
+                        'Bestandene Testfälle': passed_tests,
                         'Nicht bestandene Testfälle': failed_tests,
-                        'Fehlermeldungen': error_messages,
+                        #'Fehlermeldungen': error_messages,
                         'Ausführungszeit': execution_time,
-                        'Unerwünschte Testfälle vorhanden': unwanted_test_cases,
-                        'Anzahl unerwünschter Testfälle': test_case_count,
-                        'Lesbarkeit': 'Unknown',  # Placeholder for subjective metric
-                        'Strukturiertheit': 'Unknown',  # Placeholder for subjective metric
+                        'Unerwünschte Testfälle vorhanden': '',
+                        'Unerwünschte Beispiele vorhanden': '',
                         'Besondere Beobachtungen': '',  # Placeholder for any notes
-                        'Manuelle Anpassungen': ''  # Placeholder for manual adjustments
                     })
                 except Exception as e:
                     print(f'Error processing file {file_path}: {e}')
