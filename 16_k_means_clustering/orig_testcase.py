@@ -1,3 +1,7 @@
+from sklearn.cluster import KMeans
+import numpy as np
+from scipy.optimize import linear_sum_assignment
+
 def match_labels(true_labels, predicted_labels):
     D = max(true_labels.max(), predicted_labels.max()) + 1
     cost = np.zeros((D, D), dtype=int)
@@ -18,9 +22,6 @@ class Testk_means_clustering:
         predicted_labels = k_means_clustering(data, num_clusters)
         matched_labels = match_labels(true_labels, predicted_labels)
         assert np.all(matched_labels == true_labels)
-
-
-
 from sklearn.cluster import KMeans
 import numpy as npclass Testk_means_clustering:
 def test_k_means_clustering_2(self):
