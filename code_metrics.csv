@@ -1,289 +1,272 @@
-Testlauf-ID,Datum/Zeit,Prompting-Technik,Programmieraufgabe,Länge des Codes,Kommentare im Code,Anzahl der importierten Bibliotheken,Bestandene Testfälle,Nicht bestandene Testfälle,Ausführungszeit,Unerwünschte Testfälle vorhanden,Unerwünschte Beispiele vorhanden,Besondere Beobachtungen
-calculate_pass_at_k.py,2024-06-20 15:29:11,Unknown,Masterarbeit,46,11,1,0,0,0.38301706314086914,,,
-output_5_0S.py,2024-06-20 15:29:11,Zero Shot,5_utf8_to_ascii,13,4,0,3,5,0.016378402709960938,,,
-output_14_RP.py,2024-06-20 15:29:12,Role-Play,5_utf8_to_ascii,10,2,0,3,5,0.014707565307617188,,,
-output_4_0S.py,2024-06-20 15:29:12,Zero Shot,5_utf8_to_ascii,9,1,0,3,5,0.0204925537109375,,,
-output_3_0S.py,2024-06-20 15:29:12,Zero Shot,5_utf8_to_ascii,9,0,0,3,5,0.015321969985961914,,,
-output_11_RP.py,2024-06-20 15:29:13,Role-Play,5_utf8_to_ascii,8,0,0,3,5,0.014878511428833008,,,
-output_12_RP.py,2024-06-20 15:29:13,Role-Play,5_utf8_to_ascii,9,0,0,3,5,0.014976739883422852,,,
-output_10_CoT.py,2024-06-20 15:29:13,Chain-of-Thoughts,5_utf8_to_ascii,13,3,0,3,5,0.015244722366333008,,,
-output_1_0S.py,2024-06-20 15:29:14,Zero Shot,5_utf8_to_ascii,10,1,0,3,5,0.015087366104125977,,,
-output_13_RP.py,2024-06-20 15:29:14,Role-Play,5_utf8_to_ascii,11,3,0,3,5,0.01524209976196289,,,
-output_7_CoT.py,2024-06-20 15:29:15,Chain-of-Thoughts,5_utf8_to_ascii,9,1,0,3,5,0.015056610107421875,,,
-output_15_RP.py,2024-06-20 15:29:15,Role-Play,5_utf8_to_ascii,9,0,0,3,5,0.014998912811279297,,,
-output_8_CoT.py,2024-06-20 15:29:15,Chain-of-Thoughts,5_utf8_to_ascii,8,0,0,3,5,0.01511073112487793,,,
-__init__.py,2024-06-20 15:29:15,Unknown,5_utf8_to_ascii,0,0,0,0,0,0.015155553817749023,,,
-output_2_0S.py,2024-06-20 15:29:16,Zero Shot,5_utf8_to_ascii,9,1,0,3,5,0.014510869979858398,,,
-output_9_CoT.py,2024-06-20 15:29:16,Chain-of-Thoughts,5_utf8_to_ascii,10,2,0,3,5,0.014758825302124023,,,
-output_6_CoT.py,2024-06-20 15:29:16,Chain-of-Thoughts,5_utf8_to_ascii,10,2,0,3,5,0.015127897262573242,,,
-output_5_0S.py,2024-06-20 15:29:22,Zero Shot,11_mean_squarred_error,4,0,1,8,0,0.1548917293548584,,,
-output_14_RP.py,2024-06-20 15:29:24,Role-Play,11_mean_squarred_error,4,0,1,8,0,0.15987753868103027,,,
-output_4_0S.py,2024-06-20 15:29:25,Zero Shot,11_mean_squarred_error,4,0,1,8,0,0.14084172248840332,,,
-output_3_0S.py,2024-06-20 15:29:27,Zero Shot,11_mean_squarred_error,4,0,1,8,0,0.14890336990356445,,,
-output_11_RP.py,2024-06-20 15:29:29,Role-Play,11_mean_squarred_error,4,0,1,8,0,0.14114761352539062,,,
-output_12_RP.py,2024-06-20 15:29:31,Role-Play,11_mean_squarred_error,4,0,1,8,0,0.14728808403015137,,,
-output_10_CoT.py,2024-06-20 15:29:33,Chain-of-Thoughts,11_mean_squarred_error,4,0,1,8,0,0.14156675338745117,,,
-output_1_0S.py,2024-06-20 15:29:34,Zero Shot,11_mean_squarred_error,4,0,1,8,0,0.15068554878234863,,,
-output_13_RP.py,2024-06-20 15:29:36,Role-Play,11_mean_squarred_error,4,0,1,8,0,0.14745402336120605,,,
-output_7_CoT.py,2024-06-20 15:29:38,Chain-of-Thoughts,11_mean_squarred_error,4,0,1,8,0,0.142625093460083,,,
-output_15_RP.py,2024-06-20 15:29:40,Role-Play,11_mean_squarred_error,4,0,1,8,0,0.14282870292663574,,,
-output_8_CoT.py,2024-06-20 15:29:41,Chain-of-Thoughts,11_mean_squarred_error,6,0,1,8,0,0.14365339279174805,,,
-__init__.py,2024-06-20 15:29:41,Unknown,11_mean_squarred_error,0,0,0,0,0,0.020182371139526367,,,
-output_2_0S.py,2024-06-20 15:29:43,Zero Shot,11_mean_squarred_error,4,0,1,8,0,0.15136218070983887,,,
-output_9_CoT.py,2024-06-20 15:29:45,Chain-of-Thoughts,11_mean_squarred_error,4,0,1,8,0,0.1523892879486084,,,
-output_6_CoT.py,2024-06-20 15:29:46,Chain-of-Thoughts,11_mean_squarred_error,4,0,1,8,0,0.1436924934387207,,,
-output_5_0S.py,2024-06-20 15:29:48,Zero Shot,9_txt_to_excel,19,4,1,9,0,0.7330496311187744,,,
-output_14_RP.py,2024-06-20 15:29:49,Role-Play,9_txt_to_excel,18,5,1,9,0,0.2717313766479492,,,
-output_4_0S.py,2024-06-20 15:29:50,Zero Shot,9_txt_to_excel,15,0,1,9,0,0.268125057220459,,,
-output_3_0S.py,2024-06-20 15:29:51,Zero Shot,9_txt_to_excel,12,0,1,9,0,0.2575812339782715,,,
-output_11_RP.py,2024-06-20 15:29:51,Role-Play,9_txt_to_excel,19,4,1,9,0,0.2606818675994873,,,
-output_12_RP.py,2024-06-20 15:29:52,Role-Play,9_txt_to_excel,16,0,2,9,0,0.26866841316223145,,,
-output_10_CoT.py,2024-06-20 15:29:54,Chain-of-Thoughts,9_txt_to_excel,15,4,2,0,9,0.5462174415588379,,,
-output_1_0S.py,2024-06-20 15:29:55,Zero Shot,9_txt_to_excel,15,4,2,0,9,0.5011522769927979,,,
-output_13_RP.py,2024-06-20 15:29:56,Role-Play,9_txt_to_excel,17,4,2,9,0,0.2653069496154785,,,
-output_7_CoT.py,2024-06-20 15:29:57,Chain-of-Thoughts,9_txt_to_excel,19,4,1,9,0,0.2508838176727295,,,
-output_15_RP.py,2024-06-20 15:29:58,Role-Play,9_txt_to_excel,16,3,1,9,0,0.2559218406677246,,,
-output_8_CoT.py,2024-06-20 15:30:00,Chain-of-Thoughts,9_txt_to_excel,9,2,2,4,5,0.4594106674194336,,,
-__init__.py,2024-06-20 15:30:00,Unknown,9_txt_to_excel,0,0,0,0,0,0.01549983024597168,,,
-output_2_0S.py,2024-06-20 15:30:00,Zero Shot,9_txt_to_excel,19,4,1,9,0,0.287888765335083,,,
-output_9_CoT.py,2024-06-20 15:30:01,Chain-of-Thoughts,9_txt_to_excel,19,5,1,9,0,0.25730013847351074,,,
-output_6_CoT.py,2024-06-20 15:30:02,Chain-of-Thoughts,9_txt_to_excel,18,4,1,9,0,0.25378966331481934,,,
-output_5_0S.py,2024-06-20 15:30:03,Zero Shot,4_is_valid_variable_name,8,0,1,7,0,0.020995140075683594,,,
-output_14_RP.py,2024-06-20 15:30:03,Role-Play,4_is_valid_variable_name,15,3,1,7,0,0.020755529403686523,,,
-output_4_0S.py,2024-06-20 15:30:03,Zero Shot,4_is_valid_variable_name,12,0,0,7,0,0.022813796997070312,,,
-output_3_0S.py,2024-06-20 15:30:03,Zero Shot,4_is_valid_variable_name,12,0,0,7,0,0.01513528823852539,,,
-output_11_RP.py,2024-06-20 15:30:04,Role-Play,4_is_valid_variable_name,12,3,1,7,0,0.020780563354492188,,,
-output_12_RP.py,2024-06-20 15:30:04,Role-Play,4_is_valid_variable_name,15,3,1,7,0,0.022052764892578125,,,
-output_10_CoT.py,2024-06-20 15:30:04,Chain-of-Thoughts,4_is_valid_variable_name,17,5,1,7,0,0.021145105361938477,,,
-output_1_0S.py,2024-06-20 15:30:05,Zero Shot,4_is_valid_variable_name,12,3,1,7,0,0.0208432674407959,,,
-output_13_RP.py,2024-06-20 15:30:05,Role-Play,4_is_valid_variable_name,8,0,1,7,0,0.021628379821777344,,,
-output_7_CoT.py,2024-06-20 15:30:05,Chain-of-Thoughts,4_is_valid_variable_name,8,0,1,7,0,0.023296356201171875,,,
-output_15_RP.py,2024-06-20 15:30:06,Role-Play,4_is_valid_variable_name,9,2,1,7,0,0.02471017837524414,,,
-output_8_CoT.py,2024-06-20 15:30:06,Chain-of-Thoughts,4_is_valid_variable_name,15,3,1,7,0,0.02080821990966797,,,
-__init__.py,2024-06-20 15:30:06,Unknown,4_is_valid_variable_name,0,0,0,0,0,0.014672994613647461,,,
-output_2_0S.py,2024-06-20 15:30:06,Zero Shot,4_is_valid_variable_name,8,0,1,7,0,0.020390033721923828,,,
-output_9_CoT.py,2024-06-20 15:30:07,Chain-of-Thoughts,4_is_valid_variable_name,8,0,1,7,0,0.021078824996948242,,,
-output_6_CoT.py,2024-06-20 15:30:07,Chain-of-Thoughts,4_is_valid_variable_name,12,0,0,7,0,0.014763832092285156,,,
-output_5_0S.py,2024-06-20 15:30:07,Zero Shot,12_list_files,17,0,1,6,0,0.014978885650634766,,,
-output_14_RP.py,2024-06-20 15:30:08,Role-Play,12_list_files,14,0,1,6,0,0.014811038970947266,,,
-output_4_0S.py,2024-06-20 15:30:08,Zero Shot,12_list_files,14,0,1,6,0,0.014819622039794922,,,
-output_3_0S.py,2024-06-20 15:30:08,Zero Shot,12_list_files,14,0,1,6,0,0.023430347442626953,,,
-output_11_RP.py,2024-06-20 15:30:08,Role-Play,12_list_files,17,0,1,6,0,0.014852523803710938,,,
-output_12_RP.py,2024-06-20 15:30:09,Role-Play,12_list_files,19,0,1,0,0,0.014782428741455078,,,
-output_10_CoT.py,2024-06-20 15:30:09,Chain-of-Thoughts,12_list_files,13,0,1,0,0,0.022376060485839844,,,
-output_1_0S.py,2024-06-20 15:30:10,Zero Shot,12_list_files,15,0,1,0,0,0.01509237289428711,,,
-output_13_RP.py,2024-06-20 15:30:10,Role-Play,12_list_files,18,0,1,6,0,0.014944314956665039,,,
-output_7_CoT.py,2024-06-20 15:30:10,Chain-of-Thoughts,12_list_files,18,0,1,6,0,0.019318819046020508,,,
-output_15_RP.py,2024-06-20 15:30:11,Role-Play,12_list_files,20,0,1,6,0,0.014799118041992188,,,
-output_8_CoT.py,2024-06-20 15:30:11,Chain-of-Thoughts,12_list_files,14,0,1,6,0,0.02250528335571289,,,
-__init__.py,2024-06-20 15:30:11,Unknown,12_list_files,0,0,0,0,0,0.014677286148071289,,,
-output_2_0S.py,2024-06-20 15:30:11,Zero Shot,12_list_files,14,0,1,0,0,0.014415502548217773,,,
-output_9_CoT.py,2024-06-20 15:30:12,Chain-of-Thoughts,12_list_files,18,0,1,6,0,0.015323162078857422,,,
-output_6_CoT.py,2024-06-20 15:30:12,Chain-of-Thoughts,12_list_files,17,0,1,6,0,0.0174410343170166,,,
-output_5_0S.py,2024-06-20 15:30:17,Zero Shot,16_k_means_clustering,7,0,2,9,0,4.103102922439575,,,
-output_14_RP.py,2024-06-20 15:30:19,Role-Play,16_k_means_clustering,7,0,2,9,0,0.6538023948669434,,,
-output_4_0S.py,2024-06-20 15:30:20,Zero Shot,16_k_means_clustering,7,0,2,9,0,0.6685748100280762,,,
-output_3_0S.py,2024-06-20 15:30:22,Zero Shot,16_k_means_clustering,7,0,2,9,0,0.7175076007843018,,,
-output_11_RP.py,2024-06-20 15:30:24,Role-Play,16_k_means_clustering,17,4,2,9,0,0.6690034866333008,,,
-output_12_RP.py,2024-06-20 15:30:26,Role-Play,16_k_means_clustering,7,0,2,9,0,0.685089111328125,,,
-output_10_CoT.py,2024-06-20 15:30:28,Chain-of-Thoughts,16_k_means_clustering,15,3,2,9,0,0.7510311603546143,,,
-output_1_0S.py,2024-06-20 15:30:30,Zero Shot,16_k_means_clustering,7,0,2,9,0,1.0851333141326904,,,
-output_13_RP.py,2024-06-20 15:30:32,Role-Play,16_k_means_clustering,7,0,2,9,0,0.6837272644042969,,,
-output_7_CoT.py,2024-06-20 15:30:34,Chain-of-Thoughts,16_k_means_clustering,7,0,2,9,0,0.7215228080749512,,,
-output_15_RP.py,2024-06-20 15:30:36,Role-Play,16_k_means_clustering,7,0,2,9,0,0.9238128662109375,,,
-output_8_CoT.py,2024-06-20 15:30:39,Chain-of-Thoughts,16_k_means_clustering,7,0,2,9,0,1.0653388500213623,,,
-__init__.py,2024-06-20 15:30:39,Unknown,16_k_means_clustering,0,0,0,0,0,0.014851093292236328,,,
-output_2_0S.py,2024-06-20 15:30:41,Zero Shot,16_k_means_clustering,7,0,2,9,0,0.8606154918670654,,,
-output_9_CoT.py,2024-06-20 15:30:43,Chain-of-Thoughts,16_k_means_clustering,7,0,2,9,0,0.8768582344055176,,,
-output_6_CoT.py,2024-06-20 15:30:45,Chain-of-Thoughts,16_k_means_clustering,7,0,2,9,0,0.8209414482116699,,,
-output_5_0S.py,2024-06-20 15:30:46,Zero Shot,14_diag_zero,17,3,1,9,0,0.14070820808410645,,,
-output_14_RP.py,2024-06-20 15:30:46,Role-Play,14_diag_zero,13,2,1,9,0,0.14837145805358887,,,
-output_4_0S.py,2024-06-20 15:30:47,Zero Shot,14_diag_zero,12,2,1,9,0,0.17681550979614258,,,
-output_3_0S.py,2024-06-20 15:30:47,Zero Shot,14_diag_zero,19,4,1,9,0,0.14826154708862305,,,
-output_11_RP.py,2024-06-20 15:30:48,Role-Play,14_diag_zero,11,0,1,9,0,0.14719223976135254,,,
-output_12_RP.py,2024-06-20 15:30:48,Role-Play,14_diag_zero,13,3,1,9,0,0.1415870189666748,,,
-output_10_CoT.py,2024-06-20 15:30:49,Chain-of-Thoughts,14_diag_zero,21,4,1,9,0,0.15124225616455078,,,
-output_1_0S.py,2024-06-20 15:30:50,Zero Shot,14_diag_zero,13,2,1,9,0,0.15460681915283203,,,
-output_13_RP.py,2024-06-20 15:30:50,Role-Play,14_diag_zero,19,4,1,9,0,0.14056062698364258,,,
-output_7_CoT.py,2024-06-20 15:30:51,Chain-of-Thoughts,14_diag_zero,19,5,1,9,0,0.14449286460876465,,,
-output_15_RP.py,2024-06-20 15:30:51,Role-Play,14_diag_zero,10,0,1,9,0,0.14001083374023438,,,
-output_8_CoT.py,2024-06-20 15:30:52,Chain-of-Thoughts,14_diag_zero,20,5,1,9,0,0.15922951698303223,,,
-__init__.py,2024-06-20 15:30:52,Unknown,14_diag_zero,0,0,0,0,0,0.015003204345703125,,,
-output_2_0S.py,2024-06-20 15:30:52,Zero Shot,14_diag_zero,9,0,1,9,0,0.1584920883178711,,,
-output_9_CoT.py,2024-06-20 15:30:53,Chain-of-Thoughts,14_diag_zero,9,0,1,9,0,0.1425924301147461,,,
-output_6_CoT.py,2024-06-20 15:30:53,Chain-of-Thoughts,14_diag_zero,10,0,1,9,0,0.15024566650390625,,,
-output_5_0S.py,2024-06-20 15:30:54,Zero Shot,2_remove_html_tags,21,3,1,7,0,0.02104473114013672,,,
-output_14_RP.py,2024-06-20 15:30:54,Role-Play,2_remove_html_tags,18,0,1,7,0,0.02651381492614746,,,
-output_4_0S.py,2024-06-20 15:30:54,Zero Shot,2_remove_html_tags,21,4,1,7,0,0.027152299880981445,,,
-output_3_0S.py,2024-06-20 15:30:55,Zero Shot,2_remove_html_tags,21,3,1,7,0,0.03462982177734375,,,
-output_11_RP.py,2024-06-20 15:30:55,Role-Play,2_remove_html_tags,18,0,1,7,0,0.030587434768676758,,,
-output_12_RP.py,2024-06-20 15:30:55,Role-Play,2_remove_html_tags,18,0,1,7,0,0.02135944366455078,,,
-output_10_CoT.py,2024-06-20 15:30:56,Chain-of-Thoughts,2_remove_html_tags,27,7,1,7,0,0.0213925838470459,,,
-output_1_0S.py,2024-06-20 15:30:56,Zero Shot,2_remove_html_tags,18,0,1,7,0,0.03144216537475586,,,
-output_13_RP.py,2024-06-20 15:30:56,Role-Play,2_remove_html_tags,18,0,1,7,0,0.020516395568847656,,,
-output_7_CoT.py,2024-06-20 15:30:57,Chain-of-Thoughts,2_remove_html_tags,17,0,1,7,0,0.020922183990478516,,,
-output_15_RP.py,2024-06-20 15:30:57,Role-Play,2_remove_html_tags,17,0,1,7,0,0.020992755889892578,,,
-output_8_CoT.py,2024-06-20 15:30:57,Chain-of-Thoughts,2_remove_html_tags,21,3,1,7,0,0.020696640014648438,,,
-__init__.py,2024-06-20 15:30:57,Unknown,2_remove_html_tags,0,0,0,0,0,0.020983457565307617,,,
-output_2_0S.py,2024-06-20 15:30:58,Zero Shot,2_remove_html_tags,21,3,1,7,0,0.021634340286254883,,,
-output_9_CoT.py,2024-06-20 15:30:58,Chain-of-Thoughts,2_remove_html_tags,20,3,1,7,0,0.020845651626586914,,,
-output_6_CoT.py,2024-06-20 15:30:58,Chain-of-Thoughts,2_remove_html_tags,23,5,1,7,0,0.02290630340576172,,,
-output_5_0S.py,2024-06-20 15:30:59,Zero Shot,13_resize_and_rename_images,23,0,2,0,6,0.05571103096008301,,,
-output_14_RP.py,2024-06-20 15:31:00,Role-Play,13_resize_and_rename_images,30,9,2,6,0,0.05668234825134277,,,
-output_4_0S.py,2024-06-20 15:31:01,Zero Shot,13_resize_and_rename_images,40,10,2,1,5,0.0565032958984375,,,
-output_3_0S.py,2024-06-20 15:31:02,Zero Shot,13_resize_and_rename_images,28,1,2,0,6,0.05557870864868164,,,
-output_11_RP.py,2024-06-20 15:31:02,Role-Play,13_resize_and_rename_images,22,0,2,1,5,0.05654788017272949,,,
-output_12_RP.py,2024-06-20 15:31:03,Role-Play,13_resize_and_rename_images,21,0,2,0,6,0.055741071701049805,,,
-output_10_CoT.py,2024-06-20 15:31:04,Chain-of-Thoughts,13_resize_and_rename_images,33,9,2,6,0,0.05794668197631836,,,
-output_1_0S.py,2024-06-20 15:31:05,Zero Shot,13_resize_and_rename_images,30,7,2,6,0,0.06454801559448242,,,
-generate_images.py,2024-06-20 15:31:05,Unknown,13_resize_and_rename_images,29,1,3,0,0,0.12347769737243652,,,
-output_13_RP.py,2024-06-20 15:31:06,Role-Play,13_resize_and_rename_images,20,0,2,0,6,0.06230044364929199,,,
-output_7_CoT.py,2024-06-20 15:31:07,Chain-of-Thoughts,13_resize_and_rename_images,23,0,2,6,0,0.055997610092163086,,,
-output_15_RP.py,2024-06-20 15:31:08,Role-Play,13_resize_and_rename_images,30,9,2,6,0,0.0640113353729248,,,
-output_8_CoT.py,2024-06-20 15:31:08,Chain-of-Thoughts,13_resize_and_rename_images,30,7,2,0,6,0.056611061096191406,,,
-__init__.py,2024-06-20 15:31:08,Unknown,13_resize_and_rename_images,0,0,0,0,0,0.01489114761352539,,,
-output_2_0S.py,2024-06-20 15:31:09,Zero Shot,13_resize_and_rename_images,21,0,2,6,0,0.055914878845214844,,,
-output_9_CoT.py,2024-06-20 15:31:10,Chain-of-Thoughts,13_resize_and_rename_images,35,11,2,6,0,0.05563688278198242,,,
-output_6_CoT.py,2024-06-20 15:31:11,Chain-of-Thoughts,13_resize_and_rename_images,31,6,2,6,0,0.05493736267089844,,,
-output_5_0S.py,2024-06-20 15:31:11,Zero Shot,1_word_count,25,5,2,4,1,0.022542238235473633,,,
-output_14_RP.py,2024-06-20 15:31:12,Role-Play,1_word_count,22,5,2,4,1,0.021619319915771484,,,
-output_4_0S.py,2024-06-20 15:31:12,Zero Shot,1_word_count,25,6,2,4,1,0.021997451782226562,,,
-output_3_0S.py,2024-06-20 15:31:13,Zero Shot,1_word_count,26,7,2,4,1,0.021643877029418945,,,
-output_11_RP.py,2024-06-20 15:31:13,Role-Play,1_word_count,23,5,2,4,1,0.022122621536254883,,,
-output_12_RP.py,2024-06-20 15:31:13,Role-Play,1_word_count,25,7,2,4,1,0.021672964096069336,,,
-output_10_CoT.py,2024-06-20 15:31:14,Chain-of-Thoughts,1_word_count,26,6,2,4,1,0.021678686141967773,,,
-output_1_0S.py,2024-06-20 15:31:14,Zero Shot,1_word_count,24,4,2,4,1,0.02155303955078125,,,
-output_13_RP.py,2024-06-20 15:31:14,Role-Play,1_word_count,20,3,2,4,1,0.021915435791015625,,,
-output_7_CoT.py,2024-06-20 15:31:15,Chain-of-Thoughts,1_word_count,24,6,2,4,1,0.02177143096923828,,,
-output_15_RP.py,2024-06-20 15:31:15,Role-Play,1_word_count,23,5,2,4,1,0.03371024131774902,,,
-output_8_CoT.py,2024-06-20 15:31:15,Chain-of-Thoughts,1_word_count,26,6,2,4,1,0.021692276000976562,,,
-__init__.py,2024-06-20 15:31:15,Unknown,1_word_count,0,0,0,0,0,0.014963865280151367,,,
-output_2_0S.py,2024-06-20 15:31:16,Zero Shot,1_word_count,22,5,2,4,1,0.02146601676940918,,,
-output_9_CoT.py,2024-06-20 15:31:16,Chain-of-Thoughts,1_word_count,23,5,2,4,1,0.027060985565185547,,,
-output_6_CoT.py,2024-06-20 15:31:16,Chain-of-Thoughts,1_word_count,20,3,2,4,1,0.022140026092529297,,,
-output_5_0S.py,2024-06-20 15:31:18,Zero Shot,15_count_files,7,0,1,9,0,0.014778375625610352,,,
-output_14_RP.py,2024-06-20 15:31:20,Role-Play,15_count_files,7,0,1,9,0,0.014560699462890625,,,
-output_4_0S.py,2024-06-20 15:31:22,Zero Shot,15_count_files,7,0,1,9,0,0.014645099639892578,,,
-output_3_0S.py,2024-06-20 15:31:25,Zero Shot,15_count_files,7,0,1,9,0,0.023661136627197266,,,
-output_11_RP.py,2024-06-20 15:31:28,Role-Play,15_count_files,7,0,1,9,0,0.014879465103149414,,,
-output_12_RP.py,2024-06-20 15:31:31,Role-Play,15_count_files,7,0,1,9,0,0.026251792907714844,,,
-output_10_CoT.py,2024-06-20 15:31:34,Chain-of-Thoughts,15_count_files,7,0,1,9,0,0.014899730682373047,,,
-output_1_0S.py,2024-06-20 15:31:37,Zero Shot,15_count_files,7,0,1,9,0,0.015022993087768555,,,
-output_13_RP.py,2024-06-20 15:31:40,Role-Play,15_count_files,7,0,1,9,0,0.015355348587036133,,,
-output_7_CoT.py,2024-06-20 15:31:43,Chain-of-Thoughts,15_count_files,7,0,1,9,0,0.01475381851196289,,,
-output_15_RP.py,2024-06-20 15:31:45,Role-Play,15_count_files,7,0,1,9,0,0.023543834686279297,,,
-output_8_CoT.py,2024-06-20 15:31:48,Chain-of-Thoughts,15_count_files,7,0,1,9,0,0.023506879806518555,,,
-__init__.py,2024-06-20 15:31:48,Unknown,15_count_files,0,0,0,0,0,0.015127897262573242,,,
-output_2_0S.py,2024-06-20 15:31:51,Zero Shot,15_count_files,7,0,1,9,0,0.014206647872924805,,,
-output_9_CoT.py,2024-06-20 15:31:54,Chain-of-Thoughts,15_count_files,7,0,1,9,0,0.014960765838623047,,,
-output_6_CoT.py,2024-06-20 15:31:56,Chain-of-Thoughts,15_count_files,7,0,1,9,0,0.01484990119934082,,,
-output_5_0S.py,2024-06-20 15:31:57,Zero Shot,18_check_ip_overlap,6,0,1,9,0,0.01958489418029785,,,
-output_14_RP.py,2024-06-20 15:31:57,Role-Play,18_check_ip_overlap,6,0,1,9,0,0.01923537254333496,,,
-output_4_0S.py,2024-06-20 15:31:57,Zero Shot,18_check_ip_overlap,6,0,1,9,0,0.022660255432128906,,,
-output_3_0S.py,2024-06-20 15:31:58,Zero Shot,18_check_ip_overlap,6,0,1,9,0,0.019629240036010742,,,
-output_11_RP.py,2024-06-20 15:31:58,Role-Play,18_check_ip_overlap,6,0,1,9,0,0.019172191619873047,,,
-output_12_RP.py,2024-06-20 15:31:58,Role-Play,18_check_ip_overlap,6,0,1,9,0,0.019189119338989258,,,
-output_10_CoT.py,2024-06-20 15:31:58,Chain-of-Thoughts,18_check_ip_overlap,7,0,1,9,0,0.019108057022094727,,,
-output_1_0S.py,2024-06-20 15:31:59,Zero Shot,18_check_ip_overlap,6,0,1,9,0,0.01923513412475586,,,
-output_13_RP.py,2024-06-20 15:31:59,Role-Play,18_check_ip_overlap,6,0,1,9,0,0.01920032501220703,,,
-output_7_CoT.py,2024-06-20 15:31:59,Chain-of-Thoughts,18_check_ip_overlap,9,2,1,9,0,0.019470691680908203,,,
-output_15_RP.py,2024-06-20 15:32:00,Role-Play,18_check_ip_overlap,6,0,1,9,0,0.019686222076416016,,,
-output_8_CoT.py,2024-06-20 15:32:00,Chain-of-Thoughts,18_check_ip_overlap,9,2,1,9,0,0.019497156143188477,,,
-__init__.py,2024-06-20 15:32:00,Unknown,18_check_ip_overlap,0,0,0,0,0,0.014724493026733398,,,
-output_2_0S.py,2024-06-20 15:32:00,Zero Shot,18_check_ip_overlap,6,0,1,9,0,0.01920795440673828,,,
-output_9_CoT.py,2024-06-20 15:32:01,Chain-of-Thoughts,18_check_ip_overlap,7,0,1,9,0,0.020066499710083008,,,
-output_6_CoT.py,2024-06-20 15:32:01,Chain-of-Thoughts,18_check_ip_overlap,6,0,1,9,0,0.01951456069946289,,,
-output_5_0S.py,2024-06-20 15:32:02,Zero Shot,10_label_filter,14,0,1,0,9,0.014917373657226562,,,
-output_14_RP.py,2024-06-20 15:32:03,Role-Play,10_label_filter,12,0,1,4,5,0.015124320983886719,,,
-output_4_0S.py,2024-06-20 15:32:05,Zero Shot,10_label_filter,17,3,1,4,5,0.015549182891845703,,,
-output_3_0S.py,2024-06-20 15:32:05,Zero Shot,10_label_filter,13,0,1,0,9,0.014929056167602539,,,
-output_11_RP.py,2024-06-20 15:32:05,Role-Play,10_label_filter,17,0,1,0,9,0.021031618118286133,,,
-output_12_RP.py,2024-06-20 15:32:06,Role-Play,10_label_filter,17,0,1,0,9,0.014708280563354492,,,
-output_10_CoT.py,2024-06-20 15:32:06,Chain-of-Thoughts,10_label_filter,20,4,1,0,9,0.015338897705078125,,,
-output_1_0S.py,2024-06-20 15:32:07,Zero Shot,10_label_filter,13,0,1,4,5,0.015139341354370117,,,
-output_13_RP.py,2024-06-20 15:32:07,Role-Play,10_label_filter,20,1,1,0,9,0.01495814323425293,,,
-output_7_CoT.py,2024-06-20 15:32:07,Chain-of-Thoughts,10_label_filter,13,0,1,4,5,0.014700174331665039,,,
-output_15_RP.py,2024-06-20 15:32:08,Role-Play,10_label_filter,17,0,1,0,9,0.0173342227935791,,,
-output_8_CoT.py,2024-06-20 15:32:08,Chain-of-Thoughts,10_label_filter,19,4,1,4,5,0.014841318130493164,,,
-__init__.py,2024-06-20 15:32:08,Unknown,10_label_filter,0,0,0,0,0,0.01626133918762207,,,
-output_2_0S.py,2024-06-20 15:32:09,Zero Shot,10_label_filter,14,0,1,0,9,0.019823789596557617,,,
-output_9_CoT.py,2024-06-20 15:32:09,Chain-of-Thoughts,10_label_filter,19,4,1,4,5,0.014926910400390625,,,
-output_6_CoT.py,2024-06-20 15:32:09,Chain-of-Thoughts,10_label_filter,16,1,1,0,9,0.014746904373168945,,,
-output_5_0S.py,2024-06-20 15:32:10,Zero Shot,3_schedule_manager,35,7,1,4,4,0.0169985294342041,,,
-output_14_RP.py,2024-06-20 15:32:10,Role-Play,3_schedule_manager,32,7,1,4,4,0.016858577728271484,,,
-output_4_0S.py,2024-06-20 15:32:10,Zero Shot,3_schedule_manager,31,6,1,4,4,0.01702284812927246,,,
-output_3_0S.py,2024-06-20 15:32:11,Zero Shot,3_schedule_manager,36,7,1,2,6,0.01688981056213379,,,
-output_11_RP.py,2024-06-20 15:32:11,Role-Play,3_schedule_manager,28,0,1,4,4,0.017012596130371094,,,
-output_12_RP.py,2024-06-20 15:32:11,Role-Play,3_schedule_manager,24,0,1,4,4,0.017007112503051758,,,
-output_10_CoT.py,2024-06-20 15:32:12,Chain-of-Thoughts,3_schedule_manager,36,6,1,4,4,0.01740884780883789,,,
-output_1_0S.py,2024-06-20 15:32:12,Zero Shot,3_schedule_manager,27,0,1,4,4,0.01711273193359375,,,
-output_13_RP.py,2024-06-20 15:32:12,Role-Play,3_schedule_manager,27,0,1,4,4,0.016965627670288086,,,
-output_7_CoT.py,2024-06-20 15:32:13,Chain-of-Thoughts,3_schedule_manager,24,0,1,4,4,0.016808032989501953,,,
-output_15_RP.py,2024-06-20 15:32:13,Role-Play,3_schedule_manager,27,0,1,4,4,0.016868114471435547,,,
-output_8_CoT.py,2024-06-20 15:32:13,Chain-of-Thoughts,3_schedule_manager,36,7,1,4,4,0.016889095306396484,,,
-__init__.py,2024-06-20 15:32:13,Unknown,3_schedule_manager,0,0,0,0,0,0.014492034912109375,,,
-output_2_0S.py,2024-06-20 15:32:14,Zero Shot,3_schedule_manager,35,6,1,2,6,0.02814173698425293,,,
-output_9_CoT.py,2024-06-20 15:32:14,Chain-of-Thoughts,3_schedule_manager,31,6,1,4,4,0.018404722213745117,,,
-output_6_CoT.py,2024-06-20 15:32:14,Chain-of-Thoughts,3_schedule_manager,35,7,1,4,4,0.016848325729370117,,,
-output_5_0S.py,2024-06-20 15:32:15,Zero Shot,17_calculate_date_difference,9,0,2,9,0,0.34670281410217285,,,
-output_14_RP.py,2024-06-20 15:32:17,Role-Play,17_calculate_date_difference,14,3,2,9,0,0.33892345428466797,,,
-output_4_0S.py,2024-06-20 15:32:18,Zero Shot,17_calculate_date_difference,9,0,2,9,0,0.3823230266571045,,,
-output_3_0S.py,2024-06-20 15:32:18,Zero Shot,17_calculate_date_difference,9,0,2,9,0,0.3392822742462158,,,
-output_11_RP.py,2024-06-20 15:32:19,Role-Play,17_calculate_date_difference,14,3,2,9,0,0.38250303268432617,,,
-output_12_RP.py,2024-06-20 15:32:20,Role-Play,17_calculate_date_difference,14,3,2,9,0,0.35284972190856934,,,
-output_10_CoT.py,2024-06-20 15:32:21,Chain-of-Thoughts,17_calculate_date_difference,14,3,2,9,0,0.3395218849182129,,,
-output_1_0S.py,2024-06-20 15:32:22,Zero Shot,17_calculate_date_difference,10,0,2,9,0,0.3818676471710205,,,
-output_13_RP.py,2024-06-20 15:32:23,Role-Play,17_calculate_date_difference,10,0,2,9,0,0.34137511253356934,,,
-output_7_CoT.py,2024-06-20 15:32:24,Chain-of-Thoughts,17_calculate_date_difference,14,3,2,9,0,0.4073054790496826,,,
-output_15_RP.py,2024-06-20 15:32:25,Role-Play,17_calculate_date_difference,19,4,3,9,0,0.3414180278778076,,,
-output_8_CoT.py,2024-06-20 15:32:26,Chain-of-Thoughts,17_calculate_date_difference,14,3,2,9,0,0.3570530414581299,,,
-__init__.py,2024-06-20 15:32:26,Unknown,17_calculate_date_difference,0,0,0,0,0,0.014804840087890625,,,
-output_2_0S.py,2024-06-20 15:32:27,Zero Shot,17_calculate_date_difference,18,4,2,9,0,0.3631019592285156,,,
-output_9_CoT.py,2024-06-20 15:32:28,Chain-of-Thoughts,17_calculate_date_difference,18,4,2,9,0,0.39202284812927246,,,
-output_6_CoT.py,2024-06-20 15:32:29,Chain-of-Thoughts,17_calculate_date_difference,18,4,2,9,0,0.33865809440612793,,,
-output_5_0S.py,2024-06-20 15:32:30,Zero Shot,7_extract_temperatures_from_text,24,0,1,6,5,0.02560734748840332,,,
-output_14_RP.py,2024-06-20 15:32:30,Role-Play,7_extract_temperatures_from_text,30,0,1,8,3,0.024074792861938477,,,
-output_4_0S.py,2024-06-20 15:32:30,Zero Shot,7_extract_temperatures_from_text,30,0,1,8,3,0.024134159088134766,,,
-output_3_0S.py,2024-06-20 15:32:31,Zero Shot,7_extract_temperatures_from_text,25,0,1,6,5,0.024005413055419922,,,
-output_11_RP.py,2024-06-20 15:32:31,Role-Play,7_extract_temperatures_from_text,24,0,1,6,5,0.023835420608520508,,,
-output_12_RP.py,2024-06-20 15:32:32,Role-Play,7_extract_temperatures_from_text,18,0,1,6,5,0.024049758911132812,,,
-output_10_CoT.py,2024-06-20 15:32:32,Chain-of-Thoughts,7_extract_temperatures_from_text,25,0,1,6,5,0.023842811584472656,,,
-output_1_0S.py,2024-06-20 15:32:32,Zero Shot,7_extract_temperatures_from_text,26,0,1,8,3,0.024013280868530273,,,
-output_7_CoT.py,2024-06-20 15:32:33,Chain-of-Thoughts,7_extract_temperatures_from_text,24,0,1,6,5,0.023757457733154297,,,
-output_15_RP.py,2024-06-20 15:32:33,Role-Play,7_extract_temperatures_from_text,18,0,1,6,5,0.0239255428314209,,,
-output_8_CoT.py,2024-06-20 15:32:33,Chain-of-Thoughts,7_extract_temperatures_from_text,18,0,1,6,5,0.02372884750366211,,,
-__init__.py,2024-06-20 15:32:33,Unknown,7_extract_temperatures_from_text,0,0,0,0,0,0.015077352523803711,,,
-output_9_CoT.py,2024-06-20 15:32:34,Chain-of-Thoughts,7_extract_temperatures_from_text,24,0,1,6,5,0.029289960861206055,,,
-output_6_CoT.py,2024-06-20 15:32:34,Chain-of-Thoughts,7_extract_temperatures_from_text,30,0,1,8,3,0.023853063583374023,,,
-output_5_0S.py,2024-06-20 15:32:35,Zero Shot,6_get_top_k_words_from_html,23,6,3,3,5,0.20127344131469727,,,
-output_14_RP.py,2024-06-20 15:32:35,Role-Play,6_get_top_k_words_from_html,19,4,3,4,4,0.10364484786987305,,,
-output_4_0S.py,2024-06-20 15:32:36,Zero Shot,6_get_top_k_words_from_html,21,5,3,3,5,0.10298585891723633,,,
-output_3_0S.py,2024-06-20 15:32:36,Zero Shot,6_get_top_k_words_from_html,19,4,3,4,4,0.10205078125,,,
-output_11_RP.py,2024-06-20 15:32:37,Role-Play,6_get_top_k_words_from_html,25,8,3,3,5,0.12291550636291504,,,
-output_12_RP.py,2024-06-20 15:32:37,Role-Play,6_get_top_k_words_from_html,16,5,3,4,4,0.10251617431640625,,,
-output_10_CoT.py,2024-06-20 15:32:38,Chain-of-Thoughts,6_get_top_k_words_from_html,19,4,3,4,4,0.10417509078979492,,,
-output_1_0S.py,2024-06-20 15:32:38,Zero Shot,6_get_top_k_words_from_html,16,5,3,4,4,0.10274600982666016,,,
-output_13_RP.py,2024-06-20 15:32:39,Role-Play,6_get_top_k_words_from_html,20,4,3,3,5,0.10276508331298828,,,
-output_7_CoT.py,2024-06-20 15:32:39,Chain-of-Thoughts,6_get_top_k_words_from_html,20,4,3,3,5,0.14465594291687012,,,
-output_15_RP.py,2024-06-20 15:32:40,Role-Play,6_get_top_k_words_from_html,16,5,3,4,4,0.10794830322265625,,,
-output_8_CoT.py,2024-06-20 15:32:40,Chain-of-Thoughts,6_get_top_k_words_from_html,21,5,3,4,4,0.1017458438873291,,,
-__init__.py,2024-06-20 15:32:40,Unknown,6_get_top_k_words_from_html,0,0,0,0,0,0.014644384384155273,,,
-output_2_0S.py,2024-06-20 15:32:41,Zero Shot,6_get_top_k_words_from_html,19,4,3,4,4,0.10855484008789062,,,
-output_9_CoT.py,2024-06-20 15:32:41,Chain-of-Thoughts,6_get_top_k_words_from_html,33,5,3,3,5,0.1018214225769043,,,
-output_6_CoT.py,2024-06-20 15:32:42,Chain-of-Thoughts,6_get_top_k_words_from_html,21,5,3,4,4,0.10411357879638672,,,
-output_5_0S.py,2024-06-20 15:32:42,Zero Shot,8_backup_folder,29,6,2,6,0,0.02358078956604004,,,
-output_14_RP.py,2024-06-20 15:32:43,Role-Play,8_backup_folder,30,5,2,6,0,0.023844003677368164,,,
-output_4_0S.py,2024-06-20 15:32:43,Zero Shot,8_backup_folder,32,8,2,6,0,0.025661706924438477,,,
-output_3_0S.py,2024-06-20 15:32:43,Zero Shot,8_backup_folder,32,8,2,6,0,0.023508787155151367,,,
-output_11_RP.py,2024-06-20 15:32:44,Role-Play,8_backup_folder,32,8,2,6,0,0.023517608642578125,,,
-output_12_RP.py,2024-06-20 15:32:44,Role-Play,8_backup_folder,30,7,2,6,0,0.02363419532775879,,,
-output_10_CoT.py,2024-06-20 15:32:44,Chain-of-Thoughts,8_backup_folder,29,6,2,6,0,0.0357365608215332,,,
-output_1_0S.py,2024-06-20 15:32:45,Zero Shot,8_backup_folder,27,5,2,6,0,0.023989439010620117,,,
-output_13_RP.py,2024-06-20 15:32:45,Role-Play,8_backup_folder,29,6,2,6,0,0.023324966430664062,,,
-output_7_CoT.py,2024-06-20 15:32:45,Chain-of-Thoughts,8_backup_folder,29,6,2,6,0,0.023636341094970703,,,
-output_15_RP.py,2024-06-20 15:32:46,Role-Play,8_backup_folder,30,7,2,6,0,0.023877382278442383,,,
-output_8_CoT.py,2024-06-20 15:32:46,Chain-of-Thoughts,8_backup_folder,32,8,2,6,0,0.023624181747436523,,,
-__init__.py,2024-06-20 15:32:46,Unknown,8_backup_folder,0,0,0,0,0,0.014488935470581055,,,
-output_2_0S.py,2024-06-20 15:32:46,Zero Shot,8_backup_folder,32,8,2,6,0,0.023267745971679688,,,
-output_9_CoT.py,2024-06-20 15:32:46,Chain-of-Thoughts,8_backup_folder,31,7,2,6,0,0.023587465286254883,,,
-output_6_CoT.py,2024-06-20 15:32:47,Chain-of-Thoughts,8_backup_folder,29,6,2,6,0,0.02355051040649414,,,
+Testlauf-ID,Programmieraufgabe,Prompting-Technik,Ausführungszeit
+output_5_0S.py,5_utf8_to_ascii,Zero Shot,0.020804643630981445
+output_14_RP.py,5_utf8_to_ascii,Role-Play,0.020517349243164062
+output_4_0S.py,5_utf8_to_ascii,Zero Shot,0.021336078643798828
+output_3_0S.py,5_utf8_to_ascii,Zero Shot,0.021571636199951172
+output_11_RP.py,5_utf8_to_ascii,Role-Play,0.021785497665405273
+output_12_RP.py,5_utf8_to_ascii,Role-Play,0.021042585372924805
+output_10_CoT.py,5_utf8_to_ascii,Chain-of-Thoughts,0.022001266479492188
+output_1_0S.py,5_utf8_to_ascii,Zero Shot,0.020580530166625977
+output_13_RP.py,5_utf8_to_ascii,Role-Play,0.021471023559570312
+output_7_CoT.py,5_utf8_to_ascii,Chain-of-Thoughts,0.020543813705444336
+output_15_RP.py,5_utf8_to_ascii,Role-Play,0.020602703094482422
+output_8_CoT.py,5_utf8_to_ascii,Chain-of-Thoughts,0.020577430725097656
+output_2_0S.py,5_utf8_to_ascii,Zero Shot,0.02118229866027832
+output_9_CoT.py,5_utf8_to_ascii,Chain-of-Thoughts,0.02122354507446289
+output_6_CoT.py,5_utf8_to_ascii,Chain-of-Thoughts,0.02155590057373047
+output_5_0S.py,11_mean_squarred_error,Zero Shot,0.22929620742797852
+output_14_RP.py,11_mean_squarred_error,Role-Play,0.28503942489624023
+output_4_0S.py,11_mean_squarred_error,Zero Shot,0.2816481590270996
+output_3_0S.py,11_mean_squarred_error,Zero Shot,0.21541810035705566
+output_11_RP.py,11_mean_squarred_error,Role-Play,0.17199444770812988
+output_12_RP.py,11_mean_squarred_error,Role-Play,0.13998818397521973
+output_10_CoT.py,11_mean_squarred_error,Chain-of-Thoughts,0.14762449264526367
+output_1_0S.py,11_mean_squarred_error,Zero Shot,0.14281058311462402
+output_13_RP.py,11_mean_squarred_error,Role-Play,0.1444249153137207
+output_7_CoT.py,11_mean_squarred_error,Chain-of-Thoughts,0.14365911483764648
+output_15_RP.py,11_mean_squarred_error,Role-Play,0.14012742042541504
+output_8_CoT.py,11_mean_squarred_error,Chain-of-Thoughts,0.1406874656677246
+output_2_0S.py,11_mean_squarred_error,Zero Shot,0.14088749885559082
+output_9_CoT.py,11_mean_squarred_error,Chain-of-Thoughts,0.15904784202575684
+output_6_CoT.py,11_mean_squarred_error,Chain-of-Thoughts,0.1495070457458496
+output_5_0S.py,9_txt_to_excel,Zero Shot,0.2666780948638916
+output_14_RP.py,9_txt_to_excel,Role-Play,0.2499537467956543
+output_4_0S.py,9_txt_to_excel,Zero Shot,0.25194525718688965
+output_3_0S.py,9_txt_to_excel,Zero Shot,0.2581024169921875
+output_11_RP.py,9_txt_to_excel,Role-Play,0.25170278549194336
+output_12_RP.py,9_txt_to_excel,Role-Play,0.2478795051574707
+output_10_CoT.py,9_txt_to_excel,Chain-of-Thoughts,0.5563526153564453
+output_1_0S.py,9_txt_to_excel,Zero Shot,0.5021533966064453
+output_13_RP.py,9_txt_to_excel,Role-Play,0.26700711250305176
+output_7_CoT.py,9_txt_to_excel,Chain-of-Thoughts,0.33719849586486816
+output_15_RP.py,9_txt_to_excel,Role-Play,0.2474808692932129
+output_8_CoT.py,9_txt_to_excel,Chain-of-Thoughts,0.44968414306640625
+output_2_0S.py,9_txt_to_excel,Zero Shot,0.2524869441986084
+output_9_CoT.py,9_txt_to_excel,Chain-of-Thoughts,0.2640225887298584
+output_6_CoT.py,9_txt_to_excel,Chain-of-Thoughts,0.24772429466247559
+output_5_0S.py,4_is_valid_variable_name,Zero Shot,0.021152257919311523
+output_14_RP.py,4_is_valid_variable_name,Role-Play,0.02045440673828125
+output_4_0S.py,4_is_valid_variable_name,Zero Shot,0.014895915985107422
+output_3_0S.py,4_is_valid_variable_name,Zero Shot,0.014913082122802734
+output_11_RP.py,4_is_valid_variable_name,Role-Play,0.020670652389526367
+output_12_RP.py,4_is_valid_variable_name,Role-Play,0.020637035369873047
+output_10_CoT.py,4_is_valid_variable_name,Chain-of-Thoughts,0.020917892456054688
+output_1_0S.py,4_is_valid_variable_name,Zero Shot,0.021323204040527344
+output_13_RP.py,4_is_valid_variable_name,Role-Play,0.022500038146972656
+output_7_CoT.py,4_is_valid_variable_name,Chain-of-Thoughts,0.030347585678100586
+output_15_RP.py,4_is_valid_variable_name,Role-Play,0.02872753143310547
+output_8_CoT.py,4_is_valid_variable_name,Chain-of-Thoughts,0.022186279296875
+output_2_0S.py,4_is_valid_variable_name,Zero Shot,0.02042984962463379
+output_9_CoT.py,4_is_valid_variable_name,Chain-of-Thoughts,0.020956993103027344
+output_6_CoT.py,4_is_valid_variable_name,Chain-of-Thoughts,0.015416860580444336
+output_5_0S.py,12_list_files,Zero Shot,0.014427423477172852
+output_14_RP.py,12_list_files,Role-Play,0.01564311981201172
+output_4_0S.py,12_list_files,Zero Shot,0.015096187591552734
+output_3_0S.py,12_list_files,Zero Shot,0.017122983932495117
+output_11_RP.py,12_list_files,Role-Play,0.016145706176757812
+output_12_RP.py,12_list_files,Role-Play,0.014935731887817383
+output_10_CoT.py,12_list_files,Chain-of-Thoughts,0.014489889144897461
+output_1_0S.py,12_list_files,Zero Shot,0.014798879623413086
+output_13_RP.py,12_list_files,Role-Play,0.01481938362121582
+output_7_CoT.py,12_list_files,Chain-of-Thoughts,0.014663457870483398
+output_15_RP.py,12_list_files,Role-Play,0.015040159225463867
+output_8_CoT.py,12_list_files,Chain-of-Thoughts,0.014660120010375977
+output_2_0S.py,12_list_files,Zero Shot,0.0159759521484375
+output_9_CoT.py,12_list_files,Chain-of-Thoughts,0.014746665954589844
+output_6_CoT.py,12_list_files,Chain-of-Thoughts,0.015245437622070312
+output_5_0S.py,16_k_means_clustering,Zero Shot,0.6524162292480469
+output_14_RP.py,16_k_means_clustering,Role-Play,0.6742408275604248
+output_4_0S.py,16_k_means_clustering,Zero Shot,0.7250032424926758
+output_3_0S.py,16_k_means_clustering,Zero Shot,0.7343878746032715
+output_11_RP.py,16_k_means_clustering,Role-Play,0.6776227951049805
+output_12_RP.py,16_k_means_clustering,Role-Play,0.6603634357452393
+output_10_CoT.py,16_k_means_clustering,Chain-of-Thoughts,0.6702494621276855
+output_1_0S.py,16_k_means_clustering,Zero Shot,0.6726813316345215
+output_13_RP.py,16_k_means_clustering,Role-Play,0.6537981033325195
+output_7_CoT.py,16_k_means_clustering,Chain-of-Thoughts,0.6729772090911865
+output_15_RP.py,16_k_means_clustering,Role-Play,0.7000374794006348
+output_8_CoT.py,16_k_means_clustering,Chain-of-Thoughts,0.7680468559265137
+output_2_0S.py,16_k_means_clustering,Zero Shot,0.656745433807373
+output_9_CoT.py,16_k_means_clustering,Chain-of-Thoughts,0.670872688293457
+output_6_CoT.py,16_k_means_clustering,Chain-of-Thoughts,0.6710877418518066
+output_5_0S.py,14_diag_zero,Zero Shot,0.14296269416809082
+output_14_RP.py,14_diag_zero,Role-Play,0.14389348030090332
+output_4_0S.py,14_diag_zero,Zero Shot,0.14085841178894043
+output_3_0S.py,14_diag_zero,Zero Shot,0.13980960845947266
+output_11_RP.py,14_diag_zero,Role-Play,0.14554953575134277
+output_12_RP.py,14_diag_zero,Role-Play,0.14864373207092285
+output_10_CoT.py,14_diag_zero,Chain-of-Thoughts,0.14011001586914062
+output_1_0S.py,14_diag_zero,Zero Shot,0.141920804977417
+output_13_RP.py,14_diag_zero,Role-Play,0.15998291969299316
+output_7_CoT.py,14_diag_zero,Chain-of-Thoughts,0.14240193367004395
+output_15_RP.py,14_diag_zero,Role-Play,0.16015005111694336
+output_8_CoT.py,14_diag_zero,Chain-of-Thoughts,0.14104890823364258
+output_2_0S.py,14_diag_zero,Zero Shot,0.1450803279876709
+output_9_CoT.py,14_diag_zero,Chain-of-Thoughts,0.14187240600585938
+output_6_CoT.py,14_diag_zero,Chain-of-Thoughts,0.1397695541381836
+output_5_0S.py,2_remove_html_tags,Zero Shot,0.020486831665039062
+output_14_RP.py,2_remove_html_tags,Role-Play,0.022196292877197266
+output_4_0S.py,2_remove_html_tags,Zero Shot,0.02768850326538086
+output_3_0S.py,2_remove_html_tags,Zero Shot,0.02104973793029785
+output_11_RP.py,2_remove_html_tags,Role-Play,0.020336151123046875
+output_12_RP.py,2_remove_html_tags,Role-Play,0.020482778549194336
+output_10_CoT.py,2_remove_html_tags,Chain-of-Thoughts,0.02070307731628418
+output_1_0S.py,2_remove_html_tags,Zero Shot,0.02108478546142578
+output_13_RP.py,2_remove_html_tags,Role-Play,0.020586729049682617
+output_7_CoT.py,2_remove_html_tags,Chain-of-Thoughts,0.020991086959838867
+output_15_RP.py,2_remove_html_tags,Role-Play,0.020850658416748047
+output_8_CoT.py,2_remove_html_tags,Chain-of-Thoughts,0.020813703536987305
+output_2_0S.py,2_remove_html_tags,Zero Shot,0.02124953269958496
+output_9_CoT.py,2_remove_html_tags,Chain-of-Thoughts,0.020699739456176758
+output_6_CoT.py,2_remove_html_tags,Chain-of-Thoughts,0.020566225051879883
+output_5_0S.py,13_resize_and_rename_images,Zero Shot,0.07444310188293457
+output_14_RP.py,13_resize_and_rename_images,Role-Play,0.06084012985229492
+output_4_0S.py,13_resize_and_rename_images,Zero Shot,0.05547070503234863
+output_3_0S.py,13_resize_and_rename_images,Zero Shot,0.0638742446899414
+output_11_RP.py,13_resize_and_rename_images,Role-Play,0.06385374069213867
+output_12_RP.py,13_resize_and_rename_images,Role-Play,0.05558514595031738
+output_10_CoT.py,13_resize_and_rename_images,Chain-of-Thoughts,0.05706143379211426
+output_1_0S.py,13_resize_and_rename_images,Zero Shot,0.08562111854553223
+generate_images.py,13_resize_and_rename_images,Unknown,0.10396432876586914
+output_13_RP.py,13_resize_and_rename_images,Role-Play,0.0562589168548584
+output_7_CoT.py,13_resize_and_rename_images,Chain-of-Thoughts,0.057663679122924805
+output_15_RP.py,13_resize_and_rename_images,Role-Play,0.07807707786560059
+output_8_CoT.py,13_resize_and_rename_images,Chain-of-Thoughts,0.05588936805725098
+output_2_0S.py,13_resize_and_rename_images,Zero Shot,0.05749964714050293
+output_9_CoT.py,13_resize_and_rename_images,Chain-of-Thoughts,0.05754232406616211
+output_6_CoT.py,13_resize_and_rename_images,Chain-of-Thoughts,0.05768537521362305
+output_5_0S.py,1_word_count,Zero Shot,0.021354198455810547
+output_14_RP.py,1_word_count,Role-Play,0.022446393966674805
+output_4_0S.py,1_word_count,Zero Shot,0.021503925323486328
+output_3_0S.py,1_word_count,Zero Shot,0.020984411239624023
+output_11_RP.py,1_word_count,Role-Play,0.021671295166015625
+output_12_RP.py,1_word_count,Role-Play,0.021338939666748047
+output_10_CoT.py,1_word_count,Chain-of-Thoughts,0.021348237991333008
+output_1_0S.py,1_word_count,Zero Shot,0.021579504013061523
+output_13_RP.py,1_word_count,Role-Play,0.020883560180664062
+output_7_CoT.py,1_word_count,Chain-of-Thoughts,0.02227044105529785
+output_15_RP.py,1_word_count,Role-Play,0.025415658950805664
+output_8_CoT.py,1_word_count,Chain-of-Thoughts,0.023754119873046875
+output_2_0S.py,1_word_count,Zero Shot,0.021590232849121094
+output_9_CoT.py,1_word_count,Chain-of-Thoughts,0.021651506423950195
+output_6_CoT.py,1_word_count,Chain-of-Thoughts,0.02087545394897461
+output_5_0S.py,15_count_files,Zero Shot,0.01475214958190918
+output_14_RP.py,15_count_files,Role-Play,0.014771223068237305
+output_4_0S.py,15_count_files,Zero Shot,0.014856338500976562
+output_3_0S.py,15_count_files,Zero Shot,0.014725446701049805
+output_11_RP.py,15_count_files,Role-Play,0.015057086944580078
+output_12_RP.py,15_count_files,Role-Play,0.014640092849731445
+output_10_CoT.py,15_count_files,Chain-of-Thoughts,0.01500248908996582
+output_1_0S.py,15_count_files,Zero Shot,0.014932394027709961
+output_13_RP.py,15_count_files,Role-Play,0.015037298202514648
+output_7_CoT.py,15_count_files,Chain-of-Thoughts,0.014615535736083984
+output_15_RP.py,15_count_files,Role-Play,0.014197826385498047
+output_8_CoT.py,15_count_files,Chain-of-Thoughts,0.015173196792602539
+output_2_0S.py,15_count_files,Zero Shot,0.014896631240844727
+output_9_CoT.py,15_count_files,Chain-of-Thoughts,0.014843940734863281
+output_6_CoT.py,15_count_files,Chain-of-Thoughts,0.014763116836547852
+output_5_0S.py,18_check_ip_overlap,Zero Shot,0.019621849060058594
+output_14_RP.py,18_check_ip_overlap,Role-Play,0.0193026065826416
+output_4_0S.py,18_check_ip_overlap,Zero Shot,0.019620656967163086
+output_3_0S.py,18_check_ip_overlap,Zero Shot,0.019418001174926758
+output_11_RP.py,18_check_ip_overlap,Role-Play,0.0186617374420166
+output_12_RP.py,18_check_ip_overlap,Role-Play,0.01909327507019043
+output_10_CoT.py,18_check_ip_overlap,Chain-of-Thoughts,0.018979549407958984
+output_1_0S.py,18_check_ip_overlap,Zero Shot,0.01947331428527832
+output_13_RP.py,18_check_ip_overlap,Role-Play,0.01895737648010254
+output_7_CoT.py,18_check_ip_overlap,Chain-of-Thoughts,0.019221782684326172
+output_15_RP.py,18_check_ip_overlap,Role-Play,0.019165754318237305
+output_8_CoT.py,18_check_ip_overlap,Chain-of-Thoughts,0.019115209579467773
+output_2_0S.py,18_check_ip_overlap,Zero Shot,0.01944875717163086
+output_9_CoT.py,18_check_ip_overlap,Chain-of-Thoughts,0.019310951232910156
+output_6_CoT.py,18_check_ip_overlap,Chain-of-Thoughts,0.021333932876586914
+output_5_0S.py,10_label_filter,Zero Shot,0.014407873153686523
+output_14_RP.py,10_label_filter,Role-Play,0.015329837799072266
+output_4_0S.py,10_label_filter,Zero Shot,0.014789581298828125
+output_3_0S.py,10_label_filter,Zero Shot,0.014940977096557617
+output_11_RP.py,10_label_filter,Role-Play,0.014152765274047852
+output_12_RP.py,10_label_filter,Role-Play,0.015508174896240234
+output_10_CoT.py,10_label_filter,Chain-of-Thoughts,0.014734983444213867
+output_1_0S.py,10_label_filter,Zero Shot,0.0172269344329834
+output_13_RP.py,10_label_filter,Role-Play,0.015528202056884766
+output_7_CoT.py,10_label_filter,Chain-of-Thoughts,0.015281200408935547
+output_15_RP.py,10_label_filter,Role-Play,0.014884710311889648
+output_8_CoT.py,10_label_filter,Chain-of-Thoughts,0.014453649520874023
+output_2_0S.py,10_label_filter,Zero Shot,0.016821861267089844
+output_9_CoT.py,10_label_filter,Chain-of-Thoughts,0.020136117935180664
+output_6_CoT.py,10_label_filter,Chain-of-Thoughts,0.022107839584350586
+output_5_0S.py,3_schedule_manager,Zero Shot,0.023027896881103516
+output_14_RP.py,3_schedule_manager,Role-Play,0.016335725784301758
+output_4_0S.py,3_schedule_manager,Zero Shot,0.016962766647338867
+output_3_0S.py,3_schedule_manager,Zero Shot,0.016811370849609375
+output_11_RP.py,3_schedule_manager,Role-Play,0.01682138442993164
+output_12_RP.py,3_schedule_manager,Role-Play,0.01700568199157715
+output_10_CoT.py,3_schedule_manager,Chain-of-Thoughts,0.016982078552246094
+output_1_0S.py,3_schedule_manager,Zero Shot,0.0167539119720459
+output_13_RP.py,3_schedule_manager,Role-Play,0.01897287368774414
+output_7_CoT.py,3_schedule_manager,Chain-of-Thoughts,0.019141435623168945
+output_15_RP.py,3_schedule_manager,Role-Play,0.016916513442993164
+output_8_CoT.py,3_schedule_manager,Chain-of-Thoughts,0.0167388916015625
+output_2_0S.py,3_schedule_manager,Zero Shot,0.017032146453857422
+output_9_CoT.py,3_schedule_manager,Chain-of-Thoughts,0.0168149471282959
+output_6_CoT.py,3_schedule_manager,Chain-of-Thoughts,0.016208171844482422
+output_5_0S.py,17_calculate_date_difference,Zero Shot,0.3379333019256592
+output_14_RP.py,17_calculate_date_difference,Role-Play,0.34822726249694824
+output_4_0S.py,17_calculate_date_difference,Zero Shot,0.3460395336151123
+output_3_0S.py,17_calculate_date_difference,Zero Shot,0.33980464935302734
+output_11_RP.py,17_calculate_date_difference,Role-Play,0.3415529727935791
+output_12_RP.py,17_calculate_date_difference,Role-Play,0.37174224853515625
+output_10_CoT.py,17_calculate_date_difference,Chain-of-Thoughts,0.34668421745300293
+output_1_0S.py,17_calculate_date_difference,Zero Shot,0.3567812442779541
+output_13_RP.py,17_calculate_date_difference,Role-Play,0.416644811630249
+output_7_CoT.py,17_calculate_date_difference,Chain-of-Thoughts,0.4340782165527344
+output_15_RP.py,17_calculate_date_difference,Role-Play,0.34636807441711426
+output_8_CoT.py,17_calculate_date_difference,Chain-of-Thoughts,0.3384518623352051
+output_2_0S.py,17_calculate_date_difference,Zero Shot,0.3536064624786377
+output_9_CoT.py,17_calculate_date_difference,Chain-of-Thoughts,0.3658885955810547
+output_6_CoT.py,17_calculate_date_difference,Chain-of-Thoughts,0.33721923828125
+output_5_0S.py,7_extract_temperatures_from_text,Zero Shot,0.02360081672668457
+output_14_RP.py,7_extract_temperatures_from_text,Role-Play,0.02405238151550293
+output_4_0S.py,7_extract_temperatures_from_text,Zero Shot,0.02518916130065918
+output_3_0S.py,7_extract_temperatures_from_text,Zero Shot,0.025009632110595703
+output_11_RP.py,7_extract_temperatures_from_text,Role-Play,0.023946523666381836
+output_12_RP.py,7_extract_temperatures_from_text,Role-Play,0.024843454360961914
+output_10_CoT.py,7_extract_temperatures_from_text,Chain-of-Thoughts,0.02664327621459961
+output_1_0S.py,7_extract_temperatures_from_text,Zero Shot,0.024343252182006836
+output_13_RP.py,7_extract_temperatures_from_text,Role-Play,0.014892101287841797
+output_7_CoT.py,7_extract_temperatures_from_text,Chain-of-Thoughts,0.023986101150512695
+output_15_RP.py,7_extract_temperatures_from_text,Role-Play,0.024659156799316406
+output_8_CoT.py,7_extract_temperatures_from_text,Chain-of-Thoughts,0.023541927337646484
+output_2_0S.py,7_extract_temperatures_from_text,Zero Shot,0.014469146728515625
+output_9_CoT.py,7_extract_temperatures_from_text,Chain-of-Thoughts,0.023950815200805664
+output_6_CoT.py,7_extract_temperatures_from_text,Chain-of-Thoughts,0.02461099624633789
+output_5_0S.py,6_get_top_k_words_from_html,Zero Shot,0.10590195655822754
+output_14_RP.py,6_get_top_k_words_from_html,Role-Play,0.10183358192443848
+output_4_0S.py,6_get_top_k_words_from_html,Zero Shot,0.10691118240356445
+output_3_0S.py,6_get_top_k_words_from_html,Zero Shot,0.10036826133728027
+output_11_RP.py,6_get_top_k_words_from_html,Role-Play,0.10119962692260742
+output_12_RP.py,6_get_top_k_words_from_html,Role-Play,0.10140800476074219
+output_10_CoT.py,6_get_top_k_words_from_html,Chain-of-Thoughts,0.10229754447937012
+output_1_0S.py,6_get_top_k_words_from_html,Zero Shot,0.10306382179260254
+output_13_RP.py,6_get_top_k_words_from_html,Role-Play,0.12137961387634277
+output_7_CoT.py,6_get_top_k_words_from_html,Chain-of-Thoughts,0.10119485855102539
+output_15_RP.py,6_get_top_k_words_from_html,Role-Play,0.15615153312683105
+output_8_CoT.py,6_get_top_k_words_from_html,Chain-of-Thoughts,0.11467576026916504
+output_2_0S.py,6_get_top_k_words_from_html,Zero Shot,0.1012580394744873
+output_9_CoT.py,6_get_top_k_words_from_html,Chain-of-Thoughts,0.10089993476867676
+output_6_CoT.py,6_get_top_k_words_from_html,Chain-of-Thoughts,0.1142725944519043
+output_5_0S.py,8_backup_folder,Zero Shot,0.023532629013061523
+output_14_RP.py,8_backup_folder,Role-Play,0.02443099021911621
+output_4_0S.py,8_backup_folder,Zero Shot,0.023389101028442383
+output_3_0S.py,8_backup_folder,Zero Shot,0.026378870010375977
+output_11_RP.py,8_backup_folder,Role-Play,0.03388619422912598
+output_12_RP.py,8_backup_folder,Role-Play,0.02496170997619629
+output_10_CoT.py,8_backup_folder,Chain-of-Thoughts,0.023997068405151367
+output_1_0S.py,8_backup_folder,Zero Shot,0.02405261993408203
+output_13_RP.py,8_backup_folder,Role-Play,0.023626089096069336
+output_7_CoT.py,8_backup_folder,Chain-of-Thoughts,0.02375960350036621
+output_15_RP.py,8_backup_folder,Role-Play,0.023747920989990234
+output_8_CoT.py,8_backup_folder,Chain-of-Thoughts,0.02348494529724121
+output_2_0S.py,8_backup_folder,Zero Shot,0.023133277893066406
+output_9_CoT.py,8_backup_folder,Chain-of-Thoughts,0.023571252822875977
+output_6_CoT.py,8_backup_folder,Chain-of-Thoughts,0.023398399353027344

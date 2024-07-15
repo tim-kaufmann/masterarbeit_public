@@ -1,52 +1,35 @@
-import numpy as np
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-from scipy.optimize import linear_sum_assignment
+import time
+import subprocess
 
-def k_means_clustering(data, num_clusters):
-    kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init=10)
-    kmeans.fit(data)
-    return kmeans.labels_, kmeans.cluster_centers_
+def measure_performance(file_path):
+    start_time = time.time()
+    print(f"Startzeit: {start_time:.6f}")  # Debugging-Ausgabe
+    process = subprocess.Popen(['python', file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    end_time = time.time()
+    print(f"Endzeit: {end_time:.6f}")  # Debugging-Ausgabe
+    execution_time = end_time - start_time
+    print(f"Ausführungszeit: {execution_time:.6f} Sekunden")  # Debugging-Ausgabe
+    return execution_time
 
-def match_labels(true_labels, predicted_labels):
-    D = max(true_labels.max(), predicted_labels.max()) + 1
-    cost = np.zeros((D, D), dtype=int)
-    for i in range(len(true_labels)):
-        cost[true_labels[i], predicted_labels[i]] += 1
-    row_ind, col_ind = linear_sum_assignment(cost.max() - cost)
-    new_labels = np.zeros_like(predicted_labels)
-    for i, j in zip(row_ind, col_ind):
-        new_labels[predicted_labels == j] = i
-    return new_labels
+# Test-Skript zur Messung
+test_script_path = 'test_sleep.py'
 
-def plot_clusters(data, labels, cluster_centers):
-    plt.scatter(data[:, 0], data[:, 1], c=labels, s=50, cmap='viridis')
-    plt.scatter(cluster_centers[:, 0], cluster_centers[:, 1], s=200, c='red', alpha=0.5)
-    for i, txt in enumerate(cluster_centers):
-        plt.annotate(f'Center {i}', (txt[0], txt[1]), textcoords="offset points", xytext=(0,10), ha='center')
-    plt.xlabel('X1')
-    plt.ylabel('X2')
-    plt.title('Cluster Zuordnung')
-    plt.show()
+# Erstellen eines Test-Skripts, das 2 Sekunden wartet
+with open(test_script_path, 'w') as f:
+    f.write("import time\n")
+    f.write("time.sleep(2)\n")
 
-# Testfall
-def test_k_means_clustering_6():
-    np.random.seed(0)
-    data = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
-    num_clusters = 2
-    true_labels = np.array([0, 0, 0, 1, 1, 1])
-    predicted_labels, cluster_centers = k_means_clustering(data, num_clusters)
-    
-    print("True labels: ", true_labels)
-    print("Predicted labels: ", predicted_labels)
-    
-    # Plot the clusters
-    plot_clusters(data, predicted_labels, cluster_centers)
-    
-    matched_labels = match_labels(true_labels, predicted_labels)
-    
-    print("Matched labels: ", matched_labels)
-    assert np.all(matched_labels == true_labels)
+# Ausführung des Test-Skripts
+execution_time = measure_performance(test_script_path)
+print(f"Gemessene Ausführungszeit: {execution_time:.6f} Sekunden")
 
-# Test ausführen
-test_k_means_clustering_6()
+# Überprüfung der Einheit
+# Annahme: Zeit in Sekunden
+print(f"Ausführungszeit in Sekunden: {execution_time:.6f} s")
+# Annahme: Zeit in Millisekunden
+print(f"Ausführungszeit in Millisekunden: {execution_time * 1e3:.6f} ms")
+# Annahme: Zeit in Mikrosekunden
+print(f"Ausführungszeit in Mikrosekunden: {execution_time * 1e6:.6f} µs")
+# Annahme: Zeit in Nanosekunden
+print(f"Ausführungszeit in Nanosekunden: {execution_time * 1e9:.6f} ns")
